@@ -1,0 +1,7 @@
+react-cqc:
+  container_name: react-js-cqc
+  ports:
+    - "3000:3000"
+  build: .
+  volumes:
+    - .:/srv/react-cqc
